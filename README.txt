@@ -12,18 +12,10 @@ Componentes Principales
 
 Instalacion y Ejecucion
 1. Clonar el repositorio
-git clone https://github.com/usuario/course-completion-prediction.git
-cd course-completion-prediction
+https://github.com/Cyrah123/Preuba-Tecnica.git
 
-2. Instalar dependencias
-pip install -r requirements.txt
-
-3. Ejecutar el notebook
+2. Ejecutar el notebook
 jupyter notebook
-
-4. Ejecutar la API
-python app.py
-
 
 Conclusion
 El proyecto es un Sistema de Alerta Temprana que emplea un modelo de aprendizaje automático (Machine Learning) entrenado con un pipeline sólida para anticipar la posibilidad de que un alumno termine con éxito un curso. La decisión técnica fundamental fue implementar este modelo serializado a través de una API RESTful creada con Flask, lo cual posibilita la integración en tiempo real con sistemas externos. El aspecto fundamental de la solución es que la API no solamente devuelve una probabilidad, sino que también establece un umbral de intervención específico para convertir el dato estadístico en una sugerencia de acción directa y ejecutable para los educadores, designando a los alumnos con alto riesgo como "incompletos".
