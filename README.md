@@ -16,17 +16,11 @@ Componentes Principales
 
 Instalacion y Ejecucion
 1. Clonar el repositorio
-git clone https://github.com/usuario/course-completion-prediction.git
-cd course-completion-prediction
+https://github.com/Cyrah123/Preuba-Tecnica.git
+cd Preuba-Tecnica
 
-2. Instalar dependencias
-pip install -r requirements.txt
-
-3. Ejecutar el notebook
+2. Ejecutar el notebook
 jupyter notebook
-
-4. Ejecutar la API
-python app.py
 
 
 Conclusion
